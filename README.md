@@ -1,9 +1,7 @@
 ### Hi there 👋
 
-🔭 I’m currently working on moving https://jmcoimbra.eng.br/ to GitHub Pages and Jekyll.
-
 📫 How to reach me: https://www.linkedin.com/in/jmcoimbra/. More options described on https://jmcoimbra.eng.br/!
-
+💬 Ask me about: personal finances
 ⚡ Fun fact: people call me Jubs /dʒu:bs/ (and I know that phonetic dictionary) 
 
 <!--
