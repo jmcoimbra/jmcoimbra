@@ -1,10 +1,8 @@
 ### Hi there 👋
 
-📫 How to reach me: https://www.linkedin.com/in/jmcoimbra/. More options described on https://jmcoimbra.eng.br/!
+📫 How to reach me: https://www.linkedin.com/in/jmcoimbra/.
 
 💬 Ask me about: personal finances
-
-⚡ Fun fact: people call me Jubs /dʒu:bs/ (and I know that phonetic dictionary) 
 
 <!--
 **jmcoimbra/jmcoimbra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
