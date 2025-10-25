@@ -1,8 +1,15 @@
-### Hi there 👋
+### Hi, I’m Juliano 👋  
+
+👨‍💻 I manage humans, systems, and occasionally chaos.  
+🧩 I believe in Kanban, automation, and strong coffee pipelines.  
+🪄 My superpower: making “non-blocking updates” sound exciting in meetings.  
+
+💼 Currently @ Thanx — where we build loyalty without losing ours.  
+📈 Mission: Stability, predictability, and the occasional miracle.  
+
+> “I don’t fix bugs anymore. I fix processes that create bugs.”
 
 📫 How to reach me: https://www.linkedin.com/in/jmcoimbra/.
-
-💬 Ask me about: personal finances
 
 <!--
 **jmcoimbra/jmcoimbra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
