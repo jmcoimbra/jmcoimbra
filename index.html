@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juliano M. Coimbra</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Engineering Manager. Process fixer. Automation evangelist. Building loyalty platforms at Thanx.">
+
+  <meta property="og:title" content="Juliano M. Coimbra">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jmcoimbra.eng.br/">
+  <meta property="og:description" content="Engineering Manager. Process fixer. Automation evangelist.">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <main class="container">
+    <header class="hero">
+      <h1>Juliano M. Coimbra</h1>
+      <p class="tagline">Engineering leader. Process fixer. Automation evangelist.</p>
+    </header>
+
+    <section class="about">
+      <p>I don't fix bugs anymore. I fix processes that create bugs.</p>
+      <p>I lead engineering teams at <a href="https://www.thanx.com" target="_blank" rel="noopener">Thanx</a>, where we build guest engagement and loyalty platforms for restaurants. My work sits at the intersection of people, process, and systems: enabling engineers to ship without burnout, bridging the gap between product and business, and automating everything that moves.</p>
+      <p class="quote">Kanban is my love language.</p>
+    </section>
+
+    <section class="focus">
+      <h2>What I care about</h2>
+      <ul>
+        <li>Human and systems management</li>
+        <li>Quality engineering as a forcing function</li>
+        <li>AI-native workflows for engineering teams</li>
+        <li>Remote-first culture, done right</li>
+      </ul>
+    </section>
+
+    <section class="motto">
+      <blockquote>
+        If it moves, automate it. If it doesn't, make it a Jira card.
+      </blockquote>
+    </section>
+
+    <section class="links">
+      <h2>Find me</h2>
+      <nav>
+        <a href="https://github.com/jmcoimbra" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/jmcoimbra" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:jmcoimbra@gmail.com">Email</a>
+      </nav>
+    </section>
+
+    <footer>
+      <p>Computer Engineering (2004) &middot; MBA in IT Project Management (2013) &middot; Brazil</p>
+    </footer>
+  </main>
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('themeToggle');
+      var html = document.documentElement;
+      var stored = localStorage.getItem('theme');
+
+      if (stored) {
+        html.setAttribute('data-theme', stored);
+      }
+
+      toggle.addEventListener('click', function() {
+        var current = html.getAttribute('data-theme');
+        var isDark;
+
+        if (current) {
+          isDark = current === 'dark';
+        } else {
+          isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+
+        var next = isDark ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
