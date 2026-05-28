@@ -257,6 +257,46 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
+/* What's next */
+
+.next {
+  margin-bottom: 2.5rem;
+}
+
+.next h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.next p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Building */
+
+.building {
+  margin-bottom: 2.5rem;
+}
+
+.building h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.building p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 /* Links */
 
 .links {
