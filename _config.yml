@@ -1,3 +1,0 @@
-# O Jekyll da GitHub Pages ignora pasta iniciada por ponto sem esta linha.
-include:
-  - .well-known

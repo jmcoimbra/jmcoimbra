@@ -1,3 +1,0 @@
-Contact: mailto:bytespark@jmcoimbra.eng.br
-Expires: 2027-11-01T00:00:00Z
-Preferred-Languages: pt, en
