@@ -257,13 +257,13 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-/* What's next */
+/* Company */
 
-.next {
+.company {
   margin-bottom: 2.5rem;
 }
 
-.next h2 {
+.company h2 {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -272,29 +272,40 @@ body {
   margin: 0 0 1rem;
 }
 
-.next p {
-  margin: 0;
+.company > p {
+  margin: 0 0 1rem;
   font-size: 0.95rem;
 }
 
-/* Building */
-
-.building {
-  margin-bottom: 2.5rem;
+.ventures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
 }
 
-.building h2 {
+.venture {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+.venture h3 {
   font-size: 1rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-secondary);
-  margin: 0 0 1rem;
+  margin: 0 0 0.35rem;
 }
 
-.building p {
+.venture p {
   margin: 0;
   font-size: 0.95rem;
+}
+
+.venture .venture-meta {
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
 }
 
 /* Links */
@@ -340,7 +351,7 @@ footer {
 footer p {
   font-size: 0.8rem;
   color: var(--text-secondary);
-  margin: 0;
+  margin: 0 0 0.25rem;
 }
 
 /* General links */
